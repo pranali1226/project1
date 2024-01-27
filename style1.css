@@ -1,0 +1,135 @@
+body{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+p{
+    margin: 5px 0;
+}
+h1{
+    margin: 0;
+    font-size: 2rem;
+    color: #fff;
+}
+section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #222;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 20px;
+    margin-bottom: 5px;
+}
+header{
+    text-align: center;
+    padding: 20px;
+}
+
+#top{
+    display: flex;
+    margin-bottom: 30px;
+}
+.mypic{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(128,132,153,0.5);
+}
+.mypic img{
+    height: 245px;
+    width: 141px;
+    border-radius: 65px;
+}
+.mridul {
+    display: block;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+#about{
+    text-align: center;
+    align-items: center;
+}
+
+#social {
+    display: block;
+    justify-content: center;
+    padding:20px 20px ;
+    margin: 15px 602px;
+
+
+}
+
+#eductaion {
+    text-align: center;
+    align-items: center;
+}
+#education li{
+    list-style: none;
+}
+#education li::before{
+    content: "#";
+}
+.bottom {
+    background-color: white;
+    color: black;
+}
+#projects {
+    text-align: center;
+    align-items: center;
+    
+}
+.medium {
+    display: block;
+
+    align-items: center;
+}
+#skills {
+    align-items: center;
+    text-align: center;
+}
+#skills li {
+    list-style: none;
+}
+#skills li::before{
+    content: "#";
+    
+}
+.down {
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+#social img{
+    height: 92%;
+    width: 18%;
+
+}
+#social button{
+    width: 87%;
+    
+    border: 0px white;
+    background-color: white;
+
+}
+#social button:hover{
+    cursor: pointer;
+}
+.contact img{
+    height: 92%;
+    width: 2%;
+}
+.contact button{
+    width: 87%;
+    
+    border: 0px white;
+    background-color: white;
+
+}
+.contact button:hover{
+    cursor: pointer;
+}
